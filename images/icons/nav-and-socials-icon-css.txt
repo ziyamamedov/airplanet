@@ -1,0 +1,65 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -21px -5px;
+}
+
+.sprite-nav_feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -43px -5px;
+}
+
+.sprite-nav_feed_icon_black {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -33px;
+}
+
+.sprite-nav_main_icon {
+    width: 17px;
+    height: 18px;
+    background-position: -35px -33px;
+}
+
+.sprite-nav_main_icon_black {
+    width: 17px;
+    height: 18px;
+    background-position: -73px -5px;
+}
+
+.sprite-nav_team_icon {
+    width: 23px;
+    height: 18px;
+    background-position: -62px -33px;
+}
+
+.sprite-nav_team_icon-black {
+    width: 23px;
+    height: 18px;
+    background-position: -5px -61px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -38px -61px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -59px -61px;
+}

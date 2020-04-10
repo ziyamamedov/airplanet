@@ -1,0 +1,17 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-btn_sign {
+    width: 15px;
+    height: 14px;
+    background-position: -5px -5px;
+}
+
+.sprite-btn_sign_hover {
+    width: 15px;
+    height: 14px;
+    background-position: -30px -5px;
+}

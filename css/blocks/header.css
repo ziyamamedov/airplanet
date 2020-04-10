@@ -1,0 +1,25 @@
+.header{
+  background-color: #5973b1;
+}
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+.header__contacts{
+  text-align: right;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 320px){
+  .header .container{
+    flex-direction: column;
+  }
+
+  .header .logo{
+    margin-bottom: 10px;
+  }
+}

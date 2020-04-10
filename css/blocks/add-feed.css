@@ -1,0 +1,162 @@
+
+.add-feed .container{
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 39px;
+}
+.add-feed--v--two .container{
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 62px;
+  padding-bottom: 3px;
+  justify-content: flex-start;
+}
+
+
+
+.add-feed__frame{
+  display: flex;
+  flex-direction: column;
+  background-color: #fdebeb;
+  padding: 3.1% 6.5% 5.5% 6.3%;
+  border-radius: 1%;
+  line-height: 2;
+  min-height: 427px;
+  width: 66%;
+}
+.add-feed--v--two .add-feed__frame{
+  width: 89%;
+  padding-top: 5%;
+  padding-right: 11.8%;
+  padding-left: 11.5%;
+
+}
+
+.add-feed .section-title{
+  margin-bottom: 16px;
+}
+.add-feed__form{
+  font-size: 14px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+.add-feed__form-row{
+  display: flex;
+  justify-content: space-between; 
+}
+.add-feed__input{
+  flex: 1;
+  margin-right: 22px;
+}
+.add-feed__input:last-child{
+  margin-right: 0;
+}
+.add-feed__label{
+  display: flex;
+}
+
+.add-feed__input-form{
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+.add-feed__text{
+  width: 100%;
+  
+}
+.add-feed__textarea{
+  width: 100%;
+  height: 91px;
+  resize: none;
+  border: none;
+  border-radius: 3px;
+  padding-left: 9px;
+  padding-top: 8px;
+}
+
+.add-feed__input-form:focus, .add-feed__textarea:focus{
+  outline: #5972b1 auto 1px;
+}
+
+/* Стилизация кнопки отправить. Основная стилизация кнопки в button.css*/
+.add-feed__form .submit-button{
+  margin-top: 10px;
+}
+.submit-button{
+  padding-top: 2px;
+  color: white;
+  width: 154px;
+  height: 45px;
+  border: none;
+  background-color: #5972b1;
+}
+.submit-button:after{
+  background: url(../../images/icons/btn-icon-sprite.png) -5px -5px  no-repeat;
+}
+.submit-button:before{
+  background: url(../../images/icons/btn-icon-sprite.png) -30px -5px  no-repeat;
+}
+.submit-button:hover{
+  background-color: white;
+  color: #5972b1;
+  cursor: pointer;
+}
+
+
+/* Стилизация радиокнопок */
+.add-feed__radio{
+  display: flex;
+  max-width: 183px;
+  flex-wrap: wrap;
+}
+.add-feed__radio-label{
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.add-feed__radio-input
+{
+  display: none;
+}
+.add-feed__radio-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c8c8c8;
+  border-radius: 50%;
+  margin-right: 6px;
+  position: relative;
+  transition: .3s;
+}
+.add-feed__radio-input:checked + .add-feed__radio-btn:before{
+  width: 8px;
+  height: 8px;
+}
+.add-feed__radio-input:checked + .add-feed__radio-btn + .add-feed__radio-label-text{
+  color: #3a5bbf;
+}
+.add-feed__radio-btn:before{
+  content: '';  
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #5972b1;
+  transition: .3s;
+}
+.add-feed__radio-label:hover .add-feed__radio-btn,
+.add-feed__radio-input:checked + .add-feed__radio-btn{
+  border-color: #5972b1;
+}
+
+
+
+
+

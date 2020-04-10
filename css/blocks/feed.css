@@ -1,0 +1,144 @@
+.feed .section-title{
+  margin-bottom: 74px;
+}
+.feed__list{
+  margin-bottom: 54px;
+  
+}
+.feed__item{
+  padding-bottom: 20px;
+  margin-bottom: 29px;
+  border-bottom: 2px solid #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feed__item-avatar{
+   margin-right: 16px;
+}
+.feed__item:last-child{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.feed__avatar{
+  max-width: 160px;
+  max-height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.feed__avatar-img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.feed__item-content{
+  flex: 1;
+  min-width: 300px;
+}
+.feed__item p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+}
+.feed__item time{
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 300;
+  color: #656464;
+  
+}
+.feed__item h4{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.16;
+  margin-bottom: 9px;
+}
+
+
+
+/* Стилизация для страницы "Отзывы" */
+.feedback .section-title{
+  margin-bottom: 44px;
+}
+.feedback .feed__item-avatar{
+  margin-right: 20px;
+}
+.feedback .feed__item{
+  padding-bottom: 30px;
+}
+.feedback .feed__item:last-child{
+  padding-bottom: 0px;
+}
+.feedback .feed__item:nth-child(3){
+  /* padding-bottom: 20px; */
+}
+
+
+/* feedbac--v--two */
+.feedback--v--two{
+  padding-top: 4px;
+  padding-left: 2px;
+}
+.feedback--v--two .feed__item{
+  padding-bottom: 21px;
+  margin-bottom: 27px;
+}
+.feedback--v--two .feed__item-avatar{
+  margin-right: 24px;
+}
+.feedback--v--two .feed__avatar{
+  max-width: none;
+  max-height: none;
+  width: 171px;
+  height: 171px;
+}
+.feedback--v--two .feed__list{
+  margin-bottom: 41px;
+}
+
+
+
+/*стилизация для раздела "Последние новости"*/
+.news .feed__list{
+  padding-right: 50px;
+}
+
+
+/* стилизация горизонтального списка */
+
+.feed--horizontal .section-title{
+  margin-bottom: 43px;
+}
+
+.feed--horizontal .feed__list{
+  display: flex;
+  padding-right: 0;
+  justify-content: space-between;
+  margin-bottom: 43px;
+}
+.feed--horizontal .feed__item{
+  flex-direction: column;
+  border: none;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  max-width: 268px;
+}
+
+.feed--horizontal .feed__item-avatar{
+  margin-bottom: 44px;
+  margin-right: 0;
+}
+.feed--horizontal .feed__avatar{
+  margin-right: 0;
+}
+.feed--horizontal .feed__item-content{
+  min-width: initial;
+}
+.feed--horizontal .feed__item p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}

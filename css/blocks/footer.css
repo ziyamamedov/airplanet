@@ -1,0 +1,34 @@
+.footer{
+  background-color: #5972b1;
+}
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.28;
+  padding-top: 14px;
+  padding-bottom: 8.2px;
+}
+.footer .logo{
+  margin-right: 80px; 
+}
+
+.footer--v--two .logo{
+  margin-right: 0;
+}
+
+@media screen and (max-width: 610px){
+  .footer .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .copyright{
+      margin-bottom: 15px;
+    }
+    .footer .logo{
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+
+}

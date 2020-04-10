@@ -1,0 +1,50 @@
+.promo{
+  
+  background-color: #76b46f;
+  background-image: url('../../images/pattern.png');
+  background-repeat: repeat-x;
+  font-size: 18px;
+  color: white;
+}
+.promo--v--two{
+  text-align: center;
+  background-color: #5972b1;
+  background-repeat: repeat;
+
+}
+.promo .container{
+  padding-top: 2.7%;
+  padding-bottom: 2.6%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.promo--v--two .container{
+  padding-top: 9.6%;
+  padding-left: 12px;
+  padding-right: 9px;
+  padding-bottom: 33px;
+  
+}
+
+.promo__text{
+  max-width: 639px;
+  line-height: 1.66;
+  font-weight: 300;
+}
+
+
+.promo__text a{
+  font-size: 18px;
+  color: white;
+  font-weight: bold
+}
+.promo--v--two .phone-number{
+  display: block;
+  padding-top: 8px;
+}
+
+.promo__link{
+  text-decoration: underline;
+}

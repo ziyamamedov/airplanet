@@ -1,0 +1,57 @@
+.phone-number{
+  color: #ffffff;
+  font-size: 21px;
+  text-decoration: none;
+  line-height: 1;
+}
+.work-time{
+  position: relative;
+}
+.work-time__title{
+  color: #ffffff;
+  font-size: 14px;
+  opacity: .7;
+  text-decoration: underline;
+  line-height: 1;
+}
+.work-time__info{
+  text-align: left;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 13px 22px 12px 20px;
+  position: absolute;
+  opacity: 0;
+  top: -9999px;
+  right: 0;
+  border-radius: 3px;
+  box-shadow: 2.5px 4.33px 2.5px rgba(0,0,0,0.2);
+  transition: opacity .3s;
+}
+.work-time__info:before{
+  content: url('../../images/rounded_rectangle.png');
+  display: flex;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.work-time__info:after{
+  content: '';
+  display: flex;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  bottom: 90%;
+  right: 0;
+}
+.work-time:hover .work-time__info, .work-time__info:hover{
+  top: 36px;
+  opacity: 1;
+}
+.work-time__shifts{
+  color: #3a5bbf;
+  margin-bottom: 3px;
+}
+.work-time__lunch{
+  color: #262424;
+  font-weight: 300;
+}

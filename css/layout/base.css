@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+body{
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul, ul li, a{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+h1, h2, h3, h4, p{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  max-width: 1100px; /*<- Это сделано, чтобы при уменьшении окна, контент не был впритык к краям окна*/
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container--width--1200{
+  max-width: 1200px;
+  padding-top: 13px;
+}
+.page-content{
+  padding-top: 13px;
+}
+.sidebar{
+  flex: 1;
+  padding-top: 32px;
+  max-width: 178px;
+}
+.sidebar--width--295{
+  max-width: 295px;
+  padding-top: 0;
+  padding-right: 23px;
+}
+
+.main{
+  flex: 5;
+  max-width: 880px;
+  padding-bottom: 60px;
+}
+.main--feed{
+  padding-top: 32px;
+}
+.main--team{
+  padding-top: 32px;
+  padding-bottom: 33px;
+}
+
+.main--width--865{
+  padding-top: 0;
+  max-width: 865px;
+  padding-bottom: 46px;
+}
+
+.section-title{
+  font-size: 49px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+
+
+@media screen and (max-width: 700px){
+  .page-content .container{
+    flex-direction: column;
+  }
+  .navigation__list {
+    flex-direction: row;
+  }
+  
+}

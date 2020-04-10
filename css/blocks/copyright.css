@@ -1,0 +1,14 @@
+.copyright{
+  font-style: normal;
+  max-width: 236px;
+  color: #fff;
+
+}
+.copyright__link{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.copyright__author{
+  font-weight: bold;
+}
