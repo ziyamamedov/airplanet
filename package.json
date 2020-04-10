@@ -1,0 +1,31 @@
+{
+  "name": "airplanet_project",
+  "version": "1.0.0",
+  "description": "This is a study project, that I made on the \"Basic Markup\" course in LoftSchool(loftschool.com).",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziyamamedov/airplanet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziyamamedov/airplanet/issues"
+  },
+  "homepage": "https://github.com/ziyamamedov/airplanet#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

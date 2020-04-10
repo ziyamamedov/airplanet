@@ -96,10 +96,10 @@
   background-color: #5972b1;
 }
 .submit-button:after{
-  background: url(../../images/icons/btn-icon-sprite.png) -5px -5px  no-repeat;
+  background: url(images/icons/btn-icon-sprite.png) -5px -5px  no-repeat;
 }
 .submit-button:before{
-  background: url(../../images/icons/btn-icon-sprite.png) -30px -5px  no-repeat;
+  background: url(images/icons/btn-icon-sprite.png) -30px -5px  no-repeat;
 }
 .submit-button:hover{
   background-color: white;

@@ -1,5 +1,5 @@
 .wrapper-intro{
-  background: url(../../images/intro_background.jpg) no-repeat center;
+  background: url(images/intro_background.jpg) no-repeat center;
   background-size: cover;
 }
 .wrapper-intro .container{

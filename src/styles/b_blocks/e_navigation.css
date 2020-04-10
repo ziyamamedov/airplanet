@@ -42,7 +42,7 @@
   position: absolute;
   top: -4px;
   left: -37px;
-  background: url(../../images/icons/nav-and-socials-icon-sprite.png) no-repeat;
+  background: url(images/icons/nav-and-socials-icon-sprite.png) no-repeat;
   transition: opacity .2s;
 }
 .navigation__link::after{
@@ -50,7 +50,7 @@
   position: absolute;
   top: -4px;
   left: -37px;
-  background: url(../../images/icons/nav-and-socials-icon-sprite.png) no-repeat;
+  background: url(images/icons/nav-and-socials-icon-sprite.png) no-repeat;
   transition: opacity .2s;
 }
 

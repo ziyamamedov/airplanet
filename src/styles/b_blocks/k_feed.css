@@ -71,9 +71,9 @@
 .feedback .feed__item:last-child{
   padding-bottom: 0px;
 }
-.feedback .feed__item:nth-child(3){
-  /* padding-bottom: 20px; */
-}
+/* .feedback .feed__item:nth-child(3){
+  padding-bottom: 20px;
+} */
 
 
 /* feedbac--v--two */

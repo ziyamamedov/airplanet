@@ -26,7 +26,7 @@
 }
 .socials__item-link:after{
   content: '';
-  background: url(../../images/icons/nav-and-socials-icon-sprite.png) no-repeat;
+  background: url(images/icons/nav-and-socials-icon-sprite.png) no-repeat;
 }
 
 .socials__item--vk .socials__item-link:after{
